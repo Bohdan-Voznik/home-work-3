@@ -93,6 +93,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid #ececec;
 }
 
 .nav-content {
@@ -174,7 +175,7 @@ p {
 /* index.html */
 
 /* --------------------HERO-------------------- */
-.hero {
+.main-hero {
     padding-top: 47px;
     padding-bottom: 47px;
 }
@@ -212,10 +213,6 @@ p {
 }
 
 /* --------------------ADVANTAGE-------------------- */
-.advantage {
-    padding-bottom: 47px;
-}
-
 .advantage-list {
     display: flex;
     margin-left: -15px;
@@ -224,7 +221,7 @@ p {
 .advantage-item {
     margin-left: 15px;
     margin-right: 15px;
-    flex-basis: calc((100% - 90px) / 3);
+    flex-basis: calc((100% - 120px) / 4);
 }
 
 .advantage-title {
@@ -243,9 +240,9 @@ p {
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
-.about {
+.main-about {
     padding-bottom: 94px;
-    padding-top: 47px;
+    padding-top: 94px;
 }
 .about-title {
     margin-bottom: 50px;
@@ -265,7 +262,7 @@ p {
 }
 
 /* --------------------TEAM-------------------- */
-.team {
+.main-team {
     padding-top: 94px;
     padding-bottom: 94px;
     background-color: var(--secondary-bg-color);
@@ -313,8 +310,8 @@ p {
 }
 /* --------------------FOOTER-------------------- */
 .footer {
-    padding-top: 54px;
-    padding-bottom: 66px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: var(--footer-bg-color);
 }
 
